@@ -1,0 +1,32 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="./js/reconnecting-websocket.js"></script>
+	<script src="./js/socket.js"></script>
+	<script>
+	$(document).ready(function() {
+		TransactionSocket.init();
+	});
+	</script>
+
+	<style>
+		body
+		{
+			font-family: monospace;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<table class="table table-striped" id="txTable">
+		<tr>
+			<td>tx</td>
+			<td>from</td>
+			<td>to</td>
+			<td>btc</td>
+		</tr>
+	</table>
+</body>
+</html>
