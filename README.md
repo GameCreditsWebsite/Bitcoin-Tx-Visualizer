@@ -1,6 +1,8 @@
 # Bitcoin-Tx-Visualizer
 Visualizes new bitcoin transactions as they propagate through the network.
 
+![Animation](https://media.giphy.com/media/l4FGlrlNHCvfvoNtC/giphy.gif)
+
 ## Why
 Since www.blockchain.info removed their ticker for new transactions, I felt something was missing.
 
