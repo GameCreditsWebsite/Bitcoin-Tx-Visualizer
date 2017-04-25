@@ -13,3 +13,5 @@ Since www.blockchain.info removed their ticker for new transactions, I felt some
 
 ## Third Party Libraries
 - [Reconnecting Websocket, by Joe Walnes (MIT License)](https://github.com/joewalnes/reconnecting-websocket)
+- [Bootstrap (MIT License)](http://getbootstrap.com)
+- [jQuery (MIT License)](http://jquery.org)
